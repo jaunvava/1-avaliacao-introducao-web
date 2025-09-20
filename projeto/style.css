@@ -81,3 +81,43 @@
   width: 100%;
   height: 250px;
 }
+
+.audio {
+  display: flex;
+
+}
+
+.fundo-player {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 11rem 2rem 11rem;
+  padding: 4rem 2rem 4rem 2rem;
+  border-radius: 20px;
+  background-image: url(/1-avaliacao-introducao-web/projeto/assets/background\ audio.png);
+  background-repeat: no-repeat;
+  background-size: 1200px;
+}
+
+.fundo-player h3 {
+  color: #cecece;
+  font-weight: 1800;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 25px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.audio1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');

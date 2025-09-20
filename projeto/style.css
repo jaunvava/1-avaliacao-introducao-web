@@ -83,6 +83,128 @@
 
 /* NavBar */
 
+/* seção 2 */
+
+.secao-2 {
+  background: #f8f9fa;
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-secao-2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.header-secao-2 h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+.header-secao-2 .destaque {
+  color: #6c5ce7;
+  font-weight: 700;
+}
+
+.header-secao-2 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #636e72;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recursos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.card-recurso {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card-recurso:hover {
+  transform: translateY(-5px);
+}
+
+.icone-recurso {
+  width: 60px;
+  height: 60px;
+  background: #6c5ce7;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.card-recurso h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 15px;
+}
+
+.card-recurso p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  color: #636e72;
+  line-height: 1.5;
+}
+
+.rodape-secao-2 {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #e9ecef;
+}
+
+.rodape-secao-2 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #636e72;
+  font-style: italic;
+}
+
+/* Responsivo para seção 2 */
+@media (max-width: 768px) {
+  .recursos-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .header-secao-2 h2 {
+    font-size: 2.2rem;
+  }
+
+  .secao-2 {
+    padding: 60px 15px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .recursos-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+}
+
+/* seção 2 */
+
 /* sesção 3 */
 .secao-3 {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);

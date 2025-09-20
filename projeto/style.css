@@ -6,6 +6,83 @@
   box-sizing: border-box;
 }
 
+/* NavBar  */
+
+.navbar {
+  padding: 40px 20px;
+  max-width: 1230px;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, rgb(120, 60, 240), rgb(150, 180, 250));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: none;
+  list-style: none;
+  transition: all 0.3s ease;
+}
+.navbar .logo:hover {
+  background: linear-gradient(45deg, rgb(100, 40, 220), rgb(130, 160, 240));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-logo li {
+  list-style: none;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 27px;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #1d2020;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  color: #6c5ce7;
+}
+
+.btn-navbar {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+  display: inline-block;
+}
+
+.btn-navbar:hover {
+  background: #5a4fcf;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
+}
+
+/* NavBar */
+
 /* sesção 3 */
 .secao-3 {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -272,9 +349,7 @@
 
 /* seção 3 */
 
-
 /* seção 4 */
-
 
 .fundo-player {
   max-width: 1200px;

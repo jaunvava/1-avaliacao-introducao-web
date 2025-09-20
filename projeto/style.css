@@ -272,27 +272,26 @@
 
 /* seção 3 */
 
+
 /* seção 4 */
-.audio {
-  display: flex;
-}
+
 
 .fundo-player {
-  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 10rem;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin: 2rem 11rem 2rem 11rem;
-  padding: 4rem 2rem 4rem 2rem;
-  border-radius: 20px;
-  background-image: url(/1-avaliacao-introducao-web/projeto/assets/background\ audio.png);
+  padding: 80px 20px auto;
+  background-image: url(/projeto/assets/background\ audio.png);
   background-repeat: no-repeat;
-  background-size: 1200px;
+  background-size: 100%;
 }
 
 .fundo-player h3 {
-  color: #cecece;
+  color: #ffffff;
   font-weight: 1800;
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;

@@ -1,90 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* sesção 3 */
 .secao-3 {
-  background-color: rgb(235, 180, 107);
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 1000px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 80px 20px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.conteudo-secao-3 {
-  width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.container-cards-secao-3 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.container-texto-imagem {
-  background: white;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}
-
-/* .container-texto-imagem:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    } */
-
-.card-texto {
+.header-secao-3 {
   text-align: center;
-  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.header-secao-3 h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+.header-secao-3 .destaque {
+  color: #6c5ce7;
+  font-weight: 700;
+}
+
+.header-secao-3 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #636e72;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.estatisticas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.card-estatistica {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid #f1f3f4;
+}
+
+.card-estatistica:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.card-estatistica .icone {
+  width: 60px;
+  height: 60px;
+  background: #6c5ce7;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 0 auto 20px;
+  color: white;
+}
+
+.card-estatistica .numero {
+  font-family: "Oxanium", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #6c5ce7;
+  margin-bottom: 10px;
+}
+
+.card-estatistica .titulo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 8px;
+}
+
+.card-estatistica .descricao {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  color: #636e72;
+  line-height: 1.4;
+}
+
+.conteudo-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.lado-esquerdo h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2d3436;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.lado-esquerdo > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #636e72;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.lista-beneficios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.beneficio {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.95rem;
+  color: #2d3436;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  background: #6c5ce7;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
   font-weight: bold;
-  color: #333;
-  width: 100px;
-  height: 100px;
-  background-color: lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-shrink: 0;
 }
 
-.card-imagem {
-  width: 100px;
-  height: 100px;
-  background-color: lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.btn-conhecer {
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
 }
 
-.container-card {
-  margin-top: 20px;
+.btn-conhecer:hover {
+  background: #5a4fcf;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
+}
+
+.lado-direito {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
-  background-color: aqua;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-equipe {
   width: 100%;
-  height: 250px;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
 }
 
+.imagem-equipe img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .conteudo-principal {
+    gap: 50px;
+  }
+
+  .estatisticas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .secao-3 {
+    padding: 60px 15px;
+  }
+
+  .header-secao-3 h2 {
+    font-size: 2.5rem;
+  }
+
+  .header-secao-3 p {
+    font-size: 1.1rem;
+  }
+
+  .conteudo-principal {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .lado-esquerdo h3 {
+    font-size: 2rem;
+  }
+
+  .lista-beneficios {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .estatisticas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .card-estatistica {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-secao-3 h2 {
+    font-size: 2rem;
+  }
+
+  .lado-esquerdo h3 {
+    font-size: 1.8rem;
+  }
+
+  .estatisticas {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .card-estatistica .numero {
+    font-size: 2rem;
+  }
+
+  .card-estatistica .icone {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+/* seção 3 */
+
+/* seção 4 */
 .audio {
   display: flex;
-
 }
 
 .fundo-player {
@@ -120,4 +310,4 @@
   align-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxanium:wght@200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+/* seção 4 */

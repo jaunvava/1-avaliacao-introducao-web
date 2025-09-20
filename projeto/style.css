@@ -355,10 +355,10 @@
   max-width: 1200px;
   margin: 0 auto;
   height: 10rem;
-  display: grid;
+  display: flex;
   align-items: center;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 7.5rem;
   padding: 80px 20px auto;
   background-image: url(/projeto/assets/background\ audio.png);
   background-repeat: no-repeat;
@@ -373,15 +373,33 @@
 }
 
 .texto {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+ position: relative;
+ z-index: 1;
+ text-align: center;
 }
 
 .audio1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.fundo-player video {
+  padding: 0.5rem;
+  object-fit: cover;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.fundo-player p {
+  margin-top: 0.2rem;
+  color: white;
+  letter-spacing: 0.09rem;
 }
 
 /* seção 4 */

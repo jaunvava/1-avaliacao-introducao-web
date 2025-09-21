@@ -18,6 +18,7 @@ header {
   padding: 20px 40px;
   max-width: 1200px;
   margin: 0 auto;
+  list-style: none;
 }
 .logo {
   font-family: "Oxanium", sans-serif;
@@ -25,18 +26,21 @@ header {
   font-weight: 700;
   color: #6c5ce7;
   text-decoration: none;
+  list-style: none;
 }
 .nav-links {
   list-style: none;
   display: flex;
   gap: 30px;
+  text-decoration: none;
 }
 .nav-links li a {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   color: #2d3436;
-  text-decoration: none;
   transition: color 0.3s ease;
+  list-style: none;
+  text-decoration: none;
 }
 
 .nav-links li a:hover {
@@ -478,9 +482,9 @@ header {
 }
 
 .texto {
- position: relative;
- z-index: 1;
- text-align: center;
+  position: relative;
+  z-index: 1;
+  text-align: center;
 }
 
 .audio1 {

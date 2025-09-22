@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/projeto/assets/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>TechFlow</title>
   </head>
@@ -11,6 +12,24 @@
     <main>
       <!-- Cabeçalho -->
       <header>
+        <div class="navbar">
+          <div class="logo">
+            <span>TechFlow</span>
+          </div>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Portfólio</a></li>
+              <li><a href="#sobre-nos">Sobre Nós</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+
+          <div class="botoes">
+            <button class="btn-saiba-mais">Saiba Mais</button>
+          </div>
+        </div>
         <nav class="navbar">
           <div class="title-logo">
             <h1>
@@ -24,7 +43,7 @@
             <li><a href="#">Conteúdo</a></li>
           </ul>
           <div class="cta">
-            <button class="btn-saiba-mais">Começar agora</button>
+            <button class="btn-navbar">Começar agora</button>
           </div>
         </nav>
       </header>
@@ -211,28 +230,71 @@
       <section>
         <div class="fundo-player">
 
-          <video autoplay muted loop class="video">
-              <source src="/projeto/assets/Video_1.mp4" type="video/mp4"/>
-            </video>
-            
           <div class="texto">
-            <h3>TechFlow Talks: Inovação sem Limites</h3>
-            <p>Conheça um pouco sobre a nossa empresa: </p>
+            <h3>Ouça como a TechFlow está <strong>inovando</strong> e <br><strong>transformando</strong> o mercado!</h3>
           </div>
 
           <div class="audio1">
-        
-            <audio controls>
+            
+            <p>Ouvir Agora:</p>
+            <audio controls class="player">
               <source
                 src="/projeto/assets/CapCut_TTS_Andrew II_D20250920_T143643.mp3"
               />
             </audio>
           </div>
+
         </div>
       </section>
 
       <!-- footer -->
-      <footer></footer>
+      <footer>
+
+        <section class="contatos">
+
+          <div>
+            <h3>TechFlow</h3>
+            <i class="fas fa-envelope"></i><span> contato@techflow.com</span><br>
+            <i class="fab fa-whatsapp"></i><span> +55 (11) 9999-9999</span><br>
+            <i class="fas fa-location-dot"></i><span> São Paulo, SP - Brasil</span>
+          </div>
+
+          <div>
+            <h3>Nossas redes sociais:</h3>
+            <div class="icones">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+
+        </section>
+
+        <section class="footer">
+
+          <div>
+            <span>
+            <i class="far fa-copyright"></i>
+            2024 TechFlow
+          </span>
+          </div>
+
+          <div>
+            <span>Política de Privacidade</span>
+          </div>
+
+          <div>
+            <span>Cookies</span>
+          </div>
+
+          <div>
+            <span>Suporte</span>
+          </div>
+          
+
+        </section>
+
+      </footer>
     </main>
   </body>
 </html>

@@ -620,8 +620,7 @@ header {
 }
 
 .fundo-player h3 {
-  /* background-image: linear-gradient(to top, #27054cd2, #6b11cbcc); */
-  text-shadow: 2px 4px 2px #000000dc;
+  text-shadow: 2px 2px 2px #000000dc;
   border-radius: 1rem;
   padding: 0.5rem;
   color: #ffffff;
@@ -640,11 +639,11 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  text-shadow: 2px 4px 2px #000000dc;
+  text-shadow: 2px 2px 2px #000000dc;
 }
 
 .player {
-  box-shadow: 2px 4px 2px #0000007c;
+  box-shadow: 2px 2px 2px #0000007c;
 }
 
 .fundo-player p {

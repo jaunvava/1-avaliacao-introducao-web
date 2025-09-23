@@ -668,36 +668,5 @@ footer {
   background-color: #e9ecef;
   border-radius: 25px 25px 0px 0px;
 }
-.contatos {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  line-height: 2rem;
-  align-items: center;
-  padding-top: 1rem;
-}
-
-footer h3 {
-  color: #7543ee;
-}
-
-.icones {
-  align-items: center;
-  word-spacing: 1rem;
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: center;
-  text-align: center;
-  margin-top: 1rem;
-  padding: 1rem;
-  background-color: #d5d1d1;
-  font-size: 12px;
-  letter-spacing: 0.1rem;
-}
 
 /* Footer */

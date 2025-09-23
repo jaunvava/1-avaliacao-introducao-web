@@ -604,24 +604,27 @@ header {
 
 .fundo-player {
   max-width: 1200px;
-  height: 14rem;
+  height: 25rem;
   display: grid;
   margin: 0 auto;
   align-items: center;
   grid-template-columns: 1fr 1fr;
   background: url(/projeto/assets/background\ audio.png);
-  background-size: 100%;
+  background-size: 130%;
   background-repeat: no-repeat;
-  border-radius: 25px;
+  border-radius: 1.3rem;
   margin-bottom: 1rem;
   margin-top: 20px;
 }
 
 .fundo-player h3 {
-  color: #e9ecef;
-  font-weight: 1800;
+  background-color: #9990e76f;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: 2000;
   font-family: "Cormorant Garamond", serif;
-  font-size: 25px;
+  font-size: 2.48rem;
 }
 
 .texto {
@@ -725,10 +728,26 @@ footer span{
   font-family: "Oxanium", sans-serif;
   color: #6a11cb;
   margin-bottom: 1rem;
+
 }
 
-.tech-flow-div-01 {
-  line-height: 1.5rem;
+i {
+  color: #6a11cb;
+}
+
+.tech-flow-div-02 p{
+   margin-bottom: 1rem;
+}
+
+.tech-flow-div-03 h4{
+  margin-left: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.tech-flow-div-03 span {
+  margin-right: 1rem;
+  color: #6a11cb;
+  font-size: 1.5rem;
 }
 
 .informacoes {

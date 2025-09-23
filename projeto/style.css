@@ -6,10 +6,18 @@
   box-sizing: border-box;
 }
 
+body {
+  padding-top: 80px;
+}
+
 /* cabeçalho */
 header {
   background: #ffffff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .navbar {
   display: flex;
@@ -62,6 +70,11 @@ header {
   box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
 }
 
+.btn-saiba-mais a {
+  color: white;
+  text-decoration: none;
+}
+
 .btn-saiba-mais:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
@@ -70,7 +83,6 @@ header {
 
 /* seção 1 */
 .secao-1 {
-  background: #f8f9fa;
   padding: 80px 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -81,25 +93,21 @@ header {
   margin-bottom: 60px;
 }
 
-.lado-esquerdo h1{
+.lado-esquerdo h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 10px;
 }
 
-.lado-esquerdo .destaque{
+.lado-esquerdo .destaque {
   color: #5a4fcf;
 }
-.secao-1{
+.secao-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem 3%;
   gap: 1rem;
-
 }
-
-
-
 
 .lado-esquerdo {
   flex: 1;
@@ -193,7 +201,6 @@ header {
   font-size: 0.9rem;
 }
 
-
 .hero-img {
   flex: 1;
   display: flex;
@@ -204,13 +211,13 @@ header {
   width: 100%;
   max-width: 400px;
   border-radius: 20px;
-  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+/* seção 1 */
 
 /* seção 2 */
 .secao-2 {
-  background: #f8f9fa;
   padding: 80px 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -330,7 +337,6 @@ header {
 
 /* sesção 3 */
 .secao-3 {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   padding: 80px 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -596,7 +602,6 @@ header {
 
 /* seção 4 */
 
-
 .fundo-player {
   max-width: 1200px;
   height: 14rem;
@@ -607,8 +612,9 @@ header {
   background: url(/projeto/assets/background\ audio.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 25px;
   margin-bottom: 1rem;
+  margin-top: 20px;
 }
 
 .fundo-player h3 {
@@ -616,7 +622,6 @@ header {
   font-weight: 1800;
   font-family: "Cormorant Garamond", serif;
   font-size: 25px;
-  
 }
 
 .texto {
@@ -647,23 +652,21 @@ audio {
   padding: 5px;
 }
 
-
 audio::-webkit-media-controls-current-time-display {
   color: #6a11cb;
 }
 
-audio::-webkit-media-controls-time-remaining-display{
+audio::-webkit-media-controls-time-remaining-display {
   color: #6a11cb;
 }
 /* seção 4 */
 
 /* Footer */
-
 footer {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #e9ecef;
-  border-radius:25px 25px 0px 0px;
+  border-radius: 25px 25px 0px 0px;
 }
 .contatos {
   display: grid;
@@ -676,14 +679,13 @@ footer {
   padding-top: 1rem;
 }
 
-footer h3{
+footer h3 {
   color: #7543ee;
 }
 
-
 .icones {
   align-items: center;
-  word-spacing: 1rem; 
+  word-spacing: 1rem;
 }
 
 .footer {

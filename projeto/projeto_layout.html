@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="/projeto/assets/favicon.ico" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>TechFlow</title>
   </head>
@@ -12,24 +15,6 @@
     <main>
       <!-- Cabeçalho -->
       <header>
-        <div class="navbar">
-          <div class="logo">
-            <span>TechFlow</span>
-          </div>
-          <nav>
-            <ul class="nav-links">
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Serviços</a></li>
-              <li><a href="#">Portfólio</a></li>
-              <li><a href="#sobre-nos">Sobre Nós</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
-          </nav>
-
-          <div class="botoes">
-            <button class="btn-saiba-mais">Saiba Mais</button>
-          </div>
-        </div>
         <nav class="navbar">
           <div class="title-logo">
             <h1>
@@ -37,57 +22,63 @@
             </h1>
           </div>
           <ul class="nav-links">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Recursos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Conteúdo</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#conteudo">Conteúdo</a></li>
           </ul>
           <div class="cta">
-            <button class="btn-saiba-mais">Começar agora</button> 
+            <button class="btn-saiba-mais">
+              <a href="#sobre">Começar agora</a>
+            </button>
           </div>
-        </nav> 
+        </nav>
       </header>
 
-    
       <!-- seção 1 lorran -->
-        <section class="secao-1">
-          <div class="lado-esquerdo">
-            <h1>
-              Transforme suas <span class="destaque">ideias digitais</span> em realidade
-            </h1>
-            <p>
-              Criamos soluções web inovadoras que impulsionam seu negócio para o próximo nível.
-              <strong>Design moderno</strong>, tecnologia de ponta e resultados garantidos.
-            </p>
+      <section id="inicio" class="secao-1">
+        <div class="lado-esquerdo">
+          <h1>
+            Transforme suas <span class="destaque">ideias digitais</span> em
+            realidade
+          </h1>
+          <p>
+            Criamos soluções web inovadoras que impulsionam seu negócio para o
+            próximo nível.
+            <strong>Design moderno</strong>, tecnologia de ponta e resultados
+            garantidos.
+          </p>
 
-            <div class="buttons-hero">
-              <a href="#" class="btn primeiro">Começar Projeto</a>
-              <a href="#" class="btn segundo">Ver demo</a>
+          <div class="buttons-hero">
+            <a href="#" class="btn primeiro">Começar Projeto</a>
+            <a href="#" class="btn segundo">Ver demo</a>
+          </div>
+          <div class="status">
+            <div class="numero">
+              <h3>500+</h3>
+              <p>Projetos</p>
             </div>
-            <div class="status">
-              <div class="numero">
-                <h3>500+</h3>
-                <p>Projetos</p>
-              </div>
-              <div>
-                <h3>98%</h3>
-                <p>satisfação</p>
-              </div>
-              <div>
-                <h3>24/07</h3>
-                <p>Suporte</p>
-              </div>
+            <div>
+              <h3>98%</h3>
+              <p>satisfação</p>
+            </div>
+            <div>
+              <h3>24/07</h3>
+              <p>Suporte</p>
             </div>
           </div>
+        </div>
 
-          <div class="hero-img">
-            <img src="assets/Apresentação roxa futurista empresa tecnologia.svg" alt="#">
-          </div>
-        </section>
+        <div class="hero-img">
+          <img
+            src="assets/Apresentação roxa futurista empresa tecnologia.svg"
+            alt="#"
+          />
+        </div>
+      </section>
 
-      <section></section>
       <!-- seção 2 Jonathas -->
-      <section>
+      <section id="recursos">
         <div class="secao-2">
           <div class="header-secao-2">
             <h2>
@@ -173,8 +164,9 @@
           </div>
         </div>
       </section>
+
       <!-- seção 3 João Pedro -->
-      <section id="sobre-nos">
+      <section id="sobre">
         <div class="secao-3">
           <div class="header-secao-3">
             <h2>Sobre a <span class="destaque">TechFlow</span></h2>
@@ -264,15 +256,16 @@
       </section>
 
       <!-- seção 4 Alisson -->
-      <section>
+      <section id="conteudo">
         <div class="fundo-player">
-
           <div class="texto">
-            <h3>Ouça como a TechFlow está <strong>inovando</strong> e <br><strong>transformando</strong> o mercado!</h3>
+            <h3>
+              Ouça como a TechFlow está <strong>inovando</strong> e
+              <br /><strong>transformando</strong> o mercado!
+            </h3>
           </div>
 
           <div class="audio1">
-            
             <p>Ouvir Agora:</p>
             <audio controls class="player">
               <source
@@ -280,20 +273,20 @@
               />
             </audio>
           </div>
-
         </div>
       </section>
 
       <!-- footer -->
       <footer>
-
         <section class="contatos">
-
           <div>
             <h3>TechFlow</h3>
-            <i class="fas fa-envelope"></i><span> contato@techflow.com</span><br>
-            <i class="fab fa-whatsapp"></i><span> +55 (11) 9999-9999</span><br>
-            <i class="fas fa-location-dot"></i><span> São Paulo, SP - Brasil</span>
+            <i class="fas fa-envelope"></i><span> contato@techflow.com</span
+            ><br />
+            <i class="fab fa-whatsapp"></i><span> +55 (11) 9999-9999</span
+            ><br />
+            <i class="fas fa-location-dot"></i
+            ><span> São Paulo, SP - Brasil</span>
           </div>
 
           <div>
@@ -304,16 +297,14 @@
               <i class="fab fa-twitter"></i>
             </div>
           </div>
-
         </section>
 
         <section class="footer">
-
           <div>
             <span>
-            <i class="far fa-copyright"></i>
-            2024 TechFlow
-          </span>
+              <i class="far fa-copyright"></i>
+              2024 TechFlow
+            </span>
           </div>
 
           <div>
@@ -327,10 +318,7 @@
           <div>
             <span>Suporte</span>
           </div>
-          
-
         </section>
-
       </footer>
     </main>
   </body>

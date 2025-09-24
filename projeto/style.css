@@ -17,7 +17,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 10;
 }
 .navbar {
   display: flex;
@@ -26,6 +26,7 @@ header {
   padding: 20px 40px;
   max-width: 1200px;
   margin: 0 auto;
+  list-style: none;
 }
 .logo {
   font-family: "Oxanium", sans-serif;
@@ -33,6 +34,7 @@ header {
   font-weight: 700;
   color: #6c5ce7;
   text-decoration: none;
+  
 }
 .nav-links {
   list-style: none;
@@ -56,7 +58,7 @@ header {
   gap: 15px;
 }
 
-.btn-saiba-mais {
+.btn-navbar {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   padding: 10px 20px;
@@ -70,12 +72,12 @@ header {
   box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
 }
 
-.btn-saiba-mais a {
+.btn-navbar a {
   color: white;
   text-decoration: none;
 }
 
-.btn-saiba-mais:hover {
+.btn-navbar:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(108, 92, 231, 0.4);
 }
@@ -223,12 +225,12 @@ header {
   margin: 0 auto;
 }
 
-.header-secao-2 {
+.title-secao-2 {
   text-align: center;
   margin-bottom: 60px;
 }
 
-.header-secao-2 h2 {
+.title-secao-2 h2 {
   font-family: "Cormorant Garamond", serif;
   font-size: 3.5rem;
   font-weight: 600;
@@ -236,12 +238,12 @@ header {
   margin-bottom: 20px;
 }
 
-.header-secao-2 .destaque {
+.title-secao-2 .destaque {
   color: #6c5ce7;
   font-weight: 700;
 }
 
-.header-secao-2 p {
+.title-secao-2 p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   color: #636e72;
@@ -249,7 +251,7 @@ header {
   margin: 0 auto;
 }
 
-.recursos-grid {
+.seçao-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
@@ -279,12 +281,11 @@ header {
   justify-content: center;
   margin: 0 auto 20px;
   font-size: 24px;
-  color: white;
 }
 
 .card-recurso h3 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #2d3436;
   margin-bottom: 15px;
@@ -301,7 +302,6 @@ header {
   text-align: center;
   margin-top: 50px;
   padding-top: 30px;
-  border-top: 1px solid #e9ecef;
 }
 
 .rodape-secao-2 p {
@@ -309,29 +309,6 @@ header {
   font-size: 1rem;
   color: #636e72;
   font-style: italic;
-}
-
-/* Responsivo para seção 2 */
-@media (max-width: 768px) {
-  .recursos-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .header-secao-2 h2 {
-    font-size: 2.2rem;
-  }
-
-  .secao-2 {
-    padding: 60px 15px;
-  }
-}
-
-@media (max-width: 1024px) and (min-width: 769px) {
-  .recursos-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-  }
 }
 /* seção 2 */
 
